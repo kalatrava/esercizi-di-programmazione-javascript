@@ -11,3 +11,12 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var annoc = 2024;
+var annon = 1996;
+
+var a = annoc-annon;
+var b = 100 - a;
+
+console.log('età = '+a);
+console.log('anni mancanti = '+b);
