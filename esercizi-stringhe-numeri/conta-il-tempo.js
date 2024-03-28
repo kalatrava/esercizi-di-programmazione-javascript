@@ -12,3 +12,10 @@
 
   http://www.imparareaprogrammare.it
 */
+var secondi = 36500;
+
+var ore = (secondi/3600)-(secondi%3600)/3600;
+var minuti = ((secondi-(ore*3600))/60)-((secondi-(ore*3600))%60)/60;
+var secondix = secondi-(ore*3600)-(minuti*60);
+
+console.log(ore+' ore, '+minuti+' minuti, '+secondix+' secondi.');      //lol
