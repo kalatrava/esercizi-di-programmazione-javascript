@@ -17,3 +17,17 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var a = gattitot = 100;
+var b = gattifila = 6;
+
+var d = a/b;
+
+console.log('Numero di gatti totali = '+a);
+console.log('Numero di gatti per fila = '+b);
+
+var file = Math.ceil(d);
+console.log('Numero di file = '+file);
+
+var c = gattirimanenti = b-a%b;
+console.log("Per completare l'ultima fila mancano = "+c);
