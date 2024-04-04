@@ -19,15 +19,11 @@
 */
 
 var a = gattitot = 100;
-var b = gattifila = 6;
+var b = gattifila = 3;
 
-var d = a/b;
+var file = Math.ceil(a/b);
 
-console.log('Numero di gatti totali = '+a);
-console.log('Numero di gatti per fila = '+b);
+var c = gattirimanenti = b*file-a;
 
-var file = Math.ceil(d);
-console.log('Numero di file = '+file);
+console.log(`Con ${a} gatti divisi in ${b} per fila ci sono ${file} file di gatti. Per completare l'ultima fila ne mancano ${c}.`);
 
-var c = gattirimanenti = b-a%b;
-console.log("Per completare l'ultima fila mancano = "+c);
